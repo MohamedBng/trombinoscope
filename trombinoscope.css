@@ -1,0 +1,581 @@
+body{
+
+}
+a{
+	width: 100%;
+	
+
+}
+.nomPhotoUn{
+	width: calc(100%/9);
+	padding-left:3%;
+	padding-right:3%;
+	padding-bottom:1%;
+}
+.nomPhotoUn h2{
+	text-align: center;
+}
+a img{
+	border-radius: 50%;
+	    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+}
+#titrePage{
+	text-align: center;
+}
+a img:hover{
+	border:3px solid green;
+	    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    -ms-filter: grayscale(0%);
+    -o-filter: grayscale(0%);
+}
+img{
+	width: 30%;
+}
+.image{
+	width:100%;
+	z-index:2;
+	position: relative;
+}
+#demo{
+	z-index: 100;
+	position: absolute;
+	margin-left: 25%;
+	margin-top: 5%;
+	margin-right: 25%;
+	background-color: white;
+	visibility: hidden;
+	width: 50%;
+    text-align: right;
+     word-wrap: break-word;
+
+}
+@keyframes learn {
+    from {
+    	margin-top: -100px;}
+    to {margin-top:;}
+}
+#demo:target {
+  visibility: visible;
+       animation-duration: 2s;
+  animation-name: learn;
+}
+#demo a{
+font-weight: bold;
+color: black;
+text-decoration: none;
+font-size: 30px;
+
+}
+
+#demoun{
+	z-index: 100;
+	margin-top: 5%;
+	position: absolute;
+	margin-left: 25%;
+	margin-right: 25%;
+	background-color: white;
+	visibility: hidden;
+	opacity: 0;
+	width: 50%;
+    text-align: right;
+     word-wrap: break-word;
+}
+#demoun:target {
+  visibility: visible;
+  opacity: 1;
+         animation-duration: 2s;
+  animation-name: learn;
+}
+#demoun a{
+font-weight: bold;
+color: black;
+text-decoration: none;
+font-size: 30px;
+
+}
+#demodeux{
+	margin-top: 5%;
+	z-index: 100;
+	position: absolute;
+	margin-left: 25%;
+	margin-right: 25%;
+	background-color: white;
+	visibility: hidden;
+	opacity: 0;
+	width: 50%;
+    text-align: right;
+     word-wrap: break-word;
+}
+#demodeux:target {
+  visibility: visible;
+  opacity: 1;
+         animation-duration: 2s;
+  animation-name: learn;
+
+}
+#demodeux a{
+font-weight: bold;
+color: black;
+text-decoration: none;
+font-size: 30px;
+
+}
+#demotrois{
+	margin-top: 5%;
+	z-index: 100;
+	position: absolute;
+	margin-left: 25%;
+	margin-right: 25%;
+	background-color: white;
+	visibility: hidden;
+	opacity: 0;
+	width: 50%;
+    text-align: right;
+     word-wrap: break-word;
+}
+#demotrois:target {
+  visibility: visible;
+  opacity: 1;
+         animation-duration: 2s;
+  animation-name: learn;
+}
+#demotrois a{
+font-weight: bold;
+color: black;
+text-decoration: none;
+font-size: 30px;
+
+}
+#demoquatre{
+	margin-top: 5%;
+	z-index: 100;
+	position: absolute;
+	margin-left: 25%;
+	margin-right: 25%;
+	background-color: white;
+	visibility: hidden;
+	opacity: 0;
+	width: 50%;
+    text-align: right;
+     word-wrap: break-word;
+}
+#demoquatre:target {
+  visibility: visible;
+  opacity: 1;
+         animation-duration: 2s;
+  animation-name: learn;
+}
+#demoquatre a{
+font-weight: bold;
+color: black;
+text-decoration: none;
+font-size: 30px;
+
+}
+#democinq{
+	margin-top: 5%;
+	z-index: 100;
+	position: absolute;
+	margin-left: 25%;
+	margin-right: 25%;
+	background-color: white;
+	visibility: hidden;
+	opacity: 0;
+	width: 50%;
+    text-align: right;
+     word-wrap: break-word;
+}
+#democinq:target {
+  visibility: visible;
+  opacity: 1;
+         animation-duration: 2s;
+  animation-name: learn;
+}
+#democinq a{
+font-weight: bold;
+color: black;
+text-decoration: none;
+font-size: 30px;
+
+}
+#demosix{
+	margin-top: 5%;
+	z-index: 100;
+	position: absolute;
+	margin-left: 25%;
+	margin-right: 25%;
+	background-color: white;
+	visibility: hidden;
+	opacity: 0;
+	width: 50%;
+    text-align: right;
+     word-wrap: break-word;
+}
+#demosix:target {
+  visibility: visible;
+  opacity: 1;
+         animation-duration: 2s;
+  animation-name: learn;
+}
+#demosix a{
+font-weight: bold;
+color: black;
+text-decoration: none;
+font-size: 30px;
+
+}
+#demosept{
+	margin-top: 5%;
+	z-index: 100;
+	position: absolute;
+	margin-left: 25%;
+	margin-right: 25%;
+	background-color: white;
+	visibility: hidden;
+	opacity: 0;
+	width: 50%;
+    text-align: right;
+     word-wrap: break-word;
+
+}
+#demosept:target {
+  visibility: visible;
+  opacity: 1;
+         animation-duration: 2s;
+  animation-name: learn;
+}
+#demosept a{
+font-weight: bold;
+color: black;
+text-decoration: none;
+font-size: 30px;
+
+}
+#demoneuf{
+	margin-top: 5%;
+	z-index: 100;
+	position: absolute;
+	margin-left: 25%;
+	margin-right: 25%;
+	background-color: white;
+	visibility: hidden;
+	opacity: 0;
+	width: 50%;
+    text-align: right;
+     word-wrap: break-word;
+}
+#demoneuf:target {
+  visibility: visible;
+  opacity: 1;
+         animation-duration: 2s;
+  animation-name: learn;
+}
+#demoneuf a{
+font-weight: bold;
+color: black;
+text-decoration: none;
+font-size: 30px;
+
+}
+#demohuit{
+	margin-top: 5%;
+	z-index: 100;
+	position: absolute;
+	margin-left: 25%;
+	margin-right: 25%;
+	background-color: white;
+	visibility: hidden;
+	opacity: 0;
+	width: 50%;
+    text-align: right;
+     word-wrap: break-word;
+}
+#demohuit:target {
+  visibility: visible;
+  opacity: 1;
+         animation-duration: 2s;
+  animation-name: learn;
+}
+#demohuit a{
+font-weight: bold;
+color: black;
+text-decoration: none;
+font-size: 30px;
+
+}
+button{
+	background-color: transparent;
+	border: none;
+	font-size: 500%;
+}
+#demoseize{
+	margin-top: 5%;
+	z-index: 100;
+	position: absolute;
+	margin-left: 25%;
+	margin-right: 25%;
+	background-color: white;
+	visibility: hidden;
+	opacity: 0;
+	width: 50%;
+    text-align: right;
+     word-wrap: break-word;
+}
+#demoseize:target {
+  visibility: visible;
+  opacity: 1;
+
+         animation-duration: 2s;
+  animation-name: learn;
+}
+#demoseize a{
+font-weight: bold;
+color: black;
+text-decoration: none;
+font-size: 30px;
+
+}
+#demodixsept{
+	margin-top: 5%;
+	z-index: 100;
+	position: absolute;
+	margin-left: 25%;
+	margin-right: 25%;
+	background-color: white;
+	visibility: hidden;
+	opacity: 0;
+	width: 50%;
+    text-align: right;
+     word-wrap: break-word;
+}
+#demodixsept:target {
+  visibility: visible;
+  opacity: 1;
+         animation-duration: 2s;
+  animation-name: learn;
+}
+#demodixsept a{
+font-weight: bold;
+color: black;
+text-decoration: none;
+font-size: 30px;
+
+}
+#demodix{
+	margin-top: 5%;
+	z-index: 100;
+	position: absolute;
+	margin-left: 25%;
+	margin-right: 25%;
+	background-color: white;
+	visibility: hidden;
+	opacity: 0;
+	width: 50%;
+    text-align: right;
+     word-wrap: break-word;
+}
+#demodix:target {
+  visibility: visible;
+  opacity: 1;
+         animation-duration: 2s;
+  animation-name: learn;
+}
+#demodix a{
+font-weight: bold;
+color: black;
+text-decoration: none;
+font-size: 30px;
+
+}
+#demoonze{
+	margin-top: 5%;
+	z-index: 100;
+	position: absolute;
+	margin-left: 25%;
+	margin-right: 25%;
+	background-color: white;
+	visibility: hidden;
+	opacity: 0;
+	width: 50%;
+    text-align: right;
+     word-wrap: break-word;
+}
+#demoonze:target {
+  visibility: visible;
+  opacity: 1;
+         animation-duration: 2s;
+  animation-name: learn;
+}
+#demoonze a{
+font-weight: bold;
+color: black;
+text-decoration: none;
+font-size: 30px;
+
+}
+#demodouze{
+	margin-top: 5%;
+	z-index: 100;
+	position: absolute;
+	margin-left: 25%;
+	margin-right: 25%;
+	background-color: white;
+	visibility: hidden;
+	opacity: 0;
+	width: 50%;
+    text-align: right;
+     word-wrap: break-word;
+}
+#demodouze:target {
+  visibility: visible;
+  opacity: 1;
+         animation-duration: 2s;
+  animation-name: learn;
+}
+#demodouze a{
+font-weight: bold;
+color: black;
+text-decoration: none;
+font-size: 30px;
+
+}
+#demotreize{
+	margin-top: 5%;
+	z-index: 100;
+	position: absolute;
+	margin-left: 25%;
+	margin-right: 25%;
+	background-color: white;
+	visibility: hidden;
+	opacity: 0;
+	width: 50%;
+    text-align: right;
+     word-wrap: break-word;
+}
+#demotreize:target {
+  visibility: visible;
+  opacity: 1;
+         animation-duration: 2s;
+  animation-name: learn;
+}
+#demotreize a{
+font-weight: bold;
+color: black;
+text-decoration: none;
+font-size: 30px;
+
+}
+#demoquatorze{
+	margin-top: 5%;
+	z-index: 100;
+	position: absolute;
+	margin-left: 25%;
+	margin-right: 25%;
+	background-color: white;
+	visibility: hidden;
+	opacity: 0;
+	width: 50%;
+    text-align: right;
+     word-wrap: break-word;
+}
+#demoquatorze:target {
+  visibility: visible;
+  opacity: 1;
+         animation-duration: 2s;
+  animation-name: learn;
+}
+#demoquatorze a{
+font-weight: bold;
+color: black;
+text-decoration: none;
+font-size: 30px;
+
+}
+#demoquinze{
+	margin-top: 5%;
+	z-index: 100;
+	position: absolute;
+	margin-left: 25%;
+	margin-right: 25%;
+	background-color: white;
+	visibility: hidden;
+	opacity: 0;
+	width: 50%;
+    text-align: right;
+     word-wrap: break-word;
+}
+#demoquinze:target {
+  visibility: visible;
+  opacity: 1;
+         animation-duration: 2s;
+  animation-name: learn;
+}
+#demoquinze a{
+font-weight: bold;
+color: black;
+text-decoration: none;
+font-size: 30px;
+
+}
+.modalClose:target #demo{
+ visibility: hidden;
+  opacity: 0;
+}
+
+.nomPhoto{
+	width: 100%;
+	display: flex;
+justify-content: space-between;
+}
+.nomPrenom{
+	display: flex;
+	text-align: left;
+	flex-direction: column;
+}
+.photoClose{
+	text-align: right;
+	display: flex;
+	flex-direction: column;
+}
+.paragraphe{
+	text-align: left;
+
+}
+#bouton{
+	margin-top: 10%;
+	width: 99%;
+	z-index: 2000;
+	position: absolute;
+	display: flex;
+	justify-content: space-between;
+}
+#bouton a{
+width: 5%;
+background-color: yellow;
+border-radius: 25px;
+text-align: center;
+}
+#boutonUn:active{
+	visibility: hidden;
+}
+#divUn{
+	justify-content: space-around;
+	display: flex;
+flex-wrap: wrap;
+}
+
+
+#divDeux{
+	justify-content: space-around;
+	display: none;
+flex-wrap: wrap;
+}
+#flecheUn{
+	
+}
